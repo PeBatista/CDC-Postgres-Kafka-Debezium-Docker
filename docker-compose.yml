@@ -56,3 +56,12 @@ services:
     environment:
       KAFKA_CLUSTERS_0_NAME: local
       KAFKA_CLUSTERS_0_BOOTSTRAPSERVERS: kafka:9092
+
+  consumer:
+    build: ./consumer
+    depends_on:
+      - kafka
+    environment:
+      DB_HOST: host.docker.internal
+      PYTHONUNBUFFERED: 1
+    restart: always
