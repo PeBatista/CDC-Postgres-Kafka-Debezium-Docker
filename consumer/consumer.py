@@ -36,10 +36,10 @@ print("✅ conectado ao Kafka")
 def connect_db():
     return mysql.connector.connect(
         host="host.docker.internal",
-        port=3307,
-        user="root",
-        password="",
-        database="dw",
+        port=, #xxx
+        user="root", # xxx
+        password="", # xxx
+        database="", # xxx
         autocommit=True
     )
 
