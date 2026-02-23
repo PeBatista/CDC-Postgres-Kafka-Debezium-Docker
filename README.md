@@ -6,6 +6,8 @@ utilizando PostgreSQL, Debezium e Apache Kafka, executando localmente via Docker
 A solução captura alterações no banco transacional e as publica em tempo real no Kafka,
 permitindo integração com Data Lakes, Analytics e arquiteturas orientadas a eventos.
 
+(Por ser tratar de um projeto LAB - As senhas e conexões ficticias de banco, foram permanecidas nos scripts como demonstração).
+
 ---
 
 ## 🧱 Arquitetura
